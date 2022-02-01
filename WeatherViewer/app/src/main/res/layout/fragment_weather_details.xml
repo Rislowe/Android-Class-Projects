@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".WeatherDetails">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Ottawa, Ontario"
+        android:id="@+id/cityTextView"
+        android:layout_centerHorizontal="true"
+        android:textSize="40sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/currentTempTextView"
+        android:layout_below="@id/cityTextView"
+        android:layout_marginTop="10dp"
+        android:text="10&#176;C"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/highTempTextView"
+        android:layout_below="@id/currentTempTextView"
+        android:layout_marginTop="10dp"
+        android:text="20&#176;C"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/lowTempTextView"
+        android:layout_below="@id/highTempTextView"
+        android:layout_marginTop="10dp"
+        android:text="5&#176;C"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/weatherDescriptionTextView"
+        android:layout_below="@id/lowTempTextView"
+        android:layout_marginTop="10dp"
+        android:text="Cloudy"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/windSpeedTextView"
+        android:layout_below="@id/weatherDescriptionTextView"
+        android:layout_marginTop="10dp"
+        android:text="20km"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/feelsLikeTextView"
+        android:layout_below="@id/windSpeedTextView"
+        android:layout_marginTop="10dp"
+        android:text="30&#176;C"
+        android:layout_centerHorizontal="true"
+        android:textSize="20sp"/>
+
+
+</RelativeLayout>

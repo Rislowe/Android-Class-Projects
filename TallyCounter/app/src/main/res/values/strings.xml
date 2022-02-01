@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">TallyCounter</string>
+    <string name="click_me">Click Me!</string>
+    <string name="reset">Reset</string>
+</resources>

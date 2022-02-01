@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">WeatherViewer</string>
+    <string name="search_hint">City</string>
+    <string name="search_content_description">Search for weather by city</string>
+    <string name="temp_celsius">%1$d&#176;C</string>
+    <string name="speed_kmh">%1$d km/h</string>
+    <string name="search_error">Unable to process request.</string>
+</resources>
